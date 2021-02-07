@@ -19,7 +19,7 @@ const minRandomFruitNum = reverseLevelUp ? 7 : 4; // 生成随机水果最小值
 const maxRandomFruitNum = reverseLevelUp ? 11 : 6; // 生成随机水果最大值（1-11）0 为葡萄，9 为半个西瓜
 let setFruits = {
   // 指定前几次生成的水果，可填入任意数量的数字，0 为葡萄，9 为半个西瓜
-  startFruits: reverseLevelUp ? [10, 10, 9, 8, 8, 7] : [0, 1, 2, 2, 3, 4],
+  startFruits: reverseLevelUp ? [10, 10, 9, 8, 8, 7] : [2, 3, 4, 5, 6, 6],
   randomFunction: () => {
     return minRandomFruitNum + Math.floor(Math.random() * (maxRandomFruitNum - minRandomFruitNum));
   }
