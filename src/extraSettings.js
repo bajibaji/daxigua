@@ -3,7 +3,7 @@
  */
 
 // 额外分数：修改数字
-let extraScore = 666;
+let extraScore = 1;
 
 // 无敌模式：true 改为 false
 let wuDi = true;
@@ -35,10 +35,10 @@ let fruitSlowDown = false;
 let clickChangeFruit = true;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
-let adLink = 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/yupi_wechat.png';
+let adLink = '';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '合成大西瓜';
+document.getElementsByTagName("title")[0].innerText = '合成大旦夕';
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
